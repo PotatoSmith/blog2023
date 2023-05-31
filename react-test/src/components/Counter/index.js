@@ -1,23 +1,14 @@
-import React, { useState } from 'react';
+import "./App.css";
+import Header from "./components/Header";
 
-function Counter() {
-  const [count, setCount] = useState(0);
-
-  const increment = () => {
-    setCount(count + 1);
-  };
-
-  const decrement = () => {
-    setCount(count - 1);
-  };
-
+function App() {
   return (
-    <div>
-      <h1>Count: {count}</h1>
-      <button onClick={increment}>+</button>
-      <button onClick={decrement}>-</button>
+    <div className="App">
+      <div className="header-click">
+        <Header></Header>
+      </div>
     </div>
   );
 }
 
-export default Counter;
+export default App;
