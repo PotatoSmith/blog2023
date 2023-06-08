@@ -18,3 +18,15 @@
     color: #40a9ff;
   }
   
+  .courses {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-height: 450px;
+  }
+  
+  .courses .card {
+    margin-bottom: 20px;
+  }
+  
